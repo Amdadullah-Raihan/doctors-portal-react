@@ -4,13 +4,19 @@
     background-color: #01A1A5;
     padding: 100px;
     color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer-about{
+    padding: 100px;
 }
 .icons-container{
     display: flex;
-    justify-content: center;
-    
-    
-    
+    justify-content: center;  
+}
+.footer-logo{
+    height: 40px;
+    z-index: 3;
 }
 .icons{
     /* background-color: #484848; */
@@ -25,4 +31,16 @@
     justify-content: center;
     align-items: center;
     
+}
+.quick-links{
+    display:flex ;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px;
+    
+}
+.quick-links a{
+    text-decoration: none;
+    color: white;
 }
