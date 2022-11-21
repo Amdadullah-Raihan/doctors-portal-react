@@ -9,19 +9,19 @@ const ImportantInfo = () => {
                     <h5>Lorem Amet</h5>
                     <h3>Emergency Cases</h3>
                     <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                    <h4>Learn More --</h4>
+                    <h5>Learn More <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
                 <div className="important-card">
                     <h5>Lorem Amet</h5>
                     <h3>Emergency Cases</h3>
                     <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                    <h4>Learn More --</h4>
+                    <h5>Learn More <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
                 <div className="important-card">
                     <h5>Lorem Amet</h5>
                     <h3>Emergency Cases</h3>
                     <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                    <h4>Learn More --</h4>
+                    <h5>Learn More <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
             </div>
         </div>
