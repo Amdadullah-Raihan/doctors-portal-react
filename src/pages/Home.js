@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Hero from '../components/Hero';
+import ImportantInfo from '../components/ImportantInfo';
 
 const Home = () => {
     return (
         <div>
-            <h1>Hello from Doctors portal home page</h1>
+            <Hero></Hero>
+            <ImportantInfo></ImportantInfo>
            
         </div>
     );
