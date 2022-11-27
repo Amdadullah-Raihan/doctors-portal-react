@@ -10,7 +10,7 @@
     color: white;
     position: relative;
     position: absolute;
-    top: -100px;
+    top:-40%;
     
 }
 .important-card{
@@ -20,4 +20,14 @@
     border-radius: 10px;
     
     z-index: 3;
+}
+@media screen and (max-width:577px) {
+    .important-info-section{
+        height: 900px;
+        /* margin-left: 10px; */
+    }
+    .important-info-container{
+        grid-template-columns: repeat(1, 1fr);
+        top: -150px;
+    }
 }
