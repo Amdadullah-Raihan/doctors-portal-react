@@ -49,3 +49,18 @@
         flex-direction: column;
     }
 }
+@media screen and (min-width:576px) {
+    .hero-container {
+        /* background-image: url('../images/hero-v.jpg'); */
+        padding: 10px;
+    }
+
+    .hero-info-container {
+        width: 100%;
+    }
+
+    .hero-btn-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

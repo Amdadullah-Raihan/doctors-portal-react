@@ -24,10 +24,27 @@
 @media screen and (max-width:577px) {
     .important-info-section{
         height: 900px;
-        /* margin-left: 10px; */
+        width: 100vw;
+    
+    }
+    .important-card{
+        margin: 0 10px;
     }
     .important-info-container{
         grid-template-columns: repeat(1, 1fr);
+        top: -150px;
+        left: 0px;
+        
+    }
+}
+@media screen and (min-width:577px) {
+    .important-info-section {
+        height: 600px;
+        /* margin-left: 10px; */
+    }
+
+    .important-info-container {
+        grid-template-columns: repeat(2, 1fr);
         top: -150px;
     }
 }

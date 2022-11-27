@@ -44,3 +44,12 @@
     text-decoration: none;
     color: white;
 }
+@media screen and (max-width:576px) {
+    .footer-section{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+        /* background-color: #fff; */
+    }
+}
