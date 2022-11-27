@@ -12,7 +12,7 @@ const Hero = () => {
 
             </div>
             <div className="hero-info-container">
-                <h1>We provide medical services that you can trust!</h1>
+                <h1>We provide <span className='primary-text'> medical</span> services that you can <span className='primary-text'>trust</span>!</h1>
                 <div className="hero-btn-container">
                     <button className='btn-primary'>Get Appointment</button>
                     <button className="btn-secondary">Learn More</button>
