@@ -53,17 +53,19 @@
         height: auto;
         padding: 30px 10px;
         justify-content: flex-start;
+        background-image: url('../images/support.webp');
     }
     .statistics-container {
             grid-template-columns: repeat(1, 1fr);
             grid-row-gap: 30px;
-        }
+    }
 }
 @media screen and (min-width:576px) {
     .statistics-section {
         height: auto;
         padding: 30px 10px;
         justify-content: space-evenly;
+        
     }
 
     .statistics-container {
